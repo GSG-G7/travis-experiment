@@ -4,7 +4,7 @@
   "description": "Request module workshop",
   "main": "app.js",
   "scripts": {
-    "test": "nodemon app.test.js | tap-spec",
+    "test": "node app.test.js | tap-spec",
     "solution-test": "nodemon solution/solution.test.js | tap-spec"
   },
   "author": "",

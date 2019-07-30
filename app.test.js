@@ -37,7 +37,7 @@ test("myRequest fetches data if API uses https", t => {
       );
       t.deepEqual(
         response.body.name,
-        "Leanne Graham",
+        "Leanne Graham1111",
         "the response body should contain the correct json"
       );
       t.end();
